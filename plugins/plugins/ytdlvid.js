@@ -5,7 +5,7 @@ const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
 
-malvin({
+cyber({
     pattern: "video",
     alias: ["ytvideo", "mp4"],
     react: "📽",
