@@ -2,7 +2,7 @@ const config = require('../settings');
 const { cyber } = require('../cyber');
 const yts = require('yt-search');
 
-malvin({
+cyber({
     pattern: "video2",
     alias: ["vid", "video2"],
     react: "🎥",
