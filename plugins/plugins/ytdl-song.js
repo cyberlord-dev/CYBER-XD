@@ -9,7 +9,7 @@ function replaceYouTubeID(url) {
     return match ? match[1] : null;
 }
 
-malvin({
+cyber({
     pattern: "song",
     alias: ["s"],
     react: "🎵",
